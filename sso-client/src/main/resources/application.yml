@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+byqh:
+  sso:
+    sso-server-url-prefix: http://www.sso.com:80 #统一认证中心地址
+    client-host-url: http://www.crm.com:8081 #当前客户端地址
+    client-logout-url: http://www.crm.com:8081/logout #当前客户端登出地址
+    url-patterns: /* #过滤路径

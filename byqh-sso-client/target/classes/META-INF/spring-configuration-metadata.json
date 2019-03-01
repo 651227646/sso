@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "byqh.sso",
+      "type": "config.SsoClientConfigProperties",
+      "sourceType": "config.SsoClientConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "byqh.sso.client-host-url",
+      "type": "java.lang.String",
+      "sourceType": "config.SsoClientConfigProperties"
+    },
+    {
+      "name": "byqh.sso.client-logout-url",
+      "type": "java.lang.String",
+      "sourceType": "config.SsoClientConfigProperties"
+    },
+    {
+      "name": "byqh.sso.sso-server-url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "config.SsoClientConfigProperties"
+    },
+    {
+      "name": "byqh.sso.url-patterns",
+      "type": "java.lang.String",
+      "sourceType": "config.SsoClientConfigProperties"
+    }
+  ],
+  "hints": []
+}
